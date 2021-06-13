@@ -20,7 +20,7 @@ The russian version of the task can be found in the repository.
 4. [Chapter IV](#chapter-iv) 
 
 
-## Chapter I
+# Chapter I
 
 ## Level 3. Room 1.
 
@@ -48,7 +48,7 @@ This sticker holds another piece of paper, half the size of an A4
 ***LOADING...***
 
 
-## Chapter II
+# Chapter II
 
 ## List 1.
 
@@ -71,7 +71,7 @@ You notice that the sheet of paper seems to be folded in half.
 
 ***LOADING...***
 
-## Chapter III
+# Chapter III
 
 ## Quest 1. Modules.
 
@@ -210,7 +210,7 @@ The computer is flying:
 ***LOADING...***
 
 
-## Chapter IV
+# Chapter IV
 
 \> *Enter*
 
