@@ -1,6 +1,8 @@
 # T09D15
 The russian version of the task can be found in the repository.
 
+You can find some useful video materials [here](https://edu.21-school.ru/video/selection/d30cc6ce-bd90-4352-a584-cdb5ab865112).
+
 ![This day will help you get acquainted with multifile projects.](misc/eng/images/day9_door.png)
 
 
@@ -68,6 +70,13 @@ You notice that the sheet of paper seems to be folded in half.
 >Though integrated development environments and language-specific compiler features can also be used to manage a build process, Make remains widely used, especially in Unix and Unix-like operating systems.
 
 \> *I see. Turn on the computer*
+
+The text you already know flashed on the download screen:
+
+> Don't forget to check your programs for style norms and memory leaks! \
+> Don't forget to check your programs for style norms and memory leaks! \
+> Don't forget to check your programs for style norms and memory leaks! \
+> Check out ' materials` more often.....
 
 ***LOADING...***
 
