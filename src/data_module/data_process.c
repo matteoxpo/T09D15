@@ -1,7 +1,7 @@
 #include "data_process.h"
 #include <math.h>
 
-int normalisation(double *data, int n)
+int normalization(double *data, int n)
 {
     int result = 1;
     double max_value = max(data, n);

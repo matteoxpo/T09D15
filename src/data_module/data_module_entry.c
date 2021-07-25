@@ -7,7 +7,7 @@ void main()
 
     input(data, n);
 
-    if (normalisation(data, n))
+    if (normalization(data, n))
         output(data, n);
     else
         printf("ERROR");  

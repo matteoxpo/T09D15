@@ -4,7 +4,7 @@
 #define EPS 1E-6
 
 
-int normalisation(double *data, int n);
+int normalization(double *data, int n);
 
 #endif
 
