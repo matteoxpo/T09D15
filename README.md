@@ -99,7 +99,7 @@ Strangely enough, the computer took a long time to start up. You finally see the
 
     Restart the system when it's ready.
     
-***== Quest 1 received. Finalize the src/data_module module so src/data_module_entry.c is able to start and work correctly. Pay attention to the data_libs directory. Reuse the existing files and functions to the maximum, using the corresponding directives of the preprocessor. ==***
+***== Quest 1 received. Finalize the src/data_module module so src/data_module/data_module_entry.c is able to start and work correctly. Pay attention to the data_libs directory. Reuse the existing files and functions to the maximum, using the corresponding directives of the preprocessor. ==***
 
 ***LOADING…***
 
@@ -124,7 +124,7 @@ It's working much faster after the restart:
     
     Restart the system when it's ready.
 
-***== Quest 2 received. Finalize the src/yet_another_decision_module module so src/yet_another_decision_module_entry.c is able to start and work correctly. Pay attention to the data_libs directory. Reuse the existing files and functions to the maximum, using the corresponding directives of the preprocessor. ==***
+***== Quest 2 received. Finalize the src/yet_another_decision_module module so src/yet_another_decision_module/yet_another_decision_module_entry.c is able to start and work correctly. Pay attention to the data_libs directory. Reuse the existing files and functions to the maximum, using the corresponding directives of the preprocessor. ==***
 
 ***LOADING…***
 
@@ -160,7 +160,7 @@ The hard drive is rustling joyfully:
 
 \> *Ready. Restart the computer#3*
 
-The computer is flying:
+The computer is taking off:
 
     Welcome message from workstation #771.
     The message is displayed automatically.
