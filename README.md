@@ -82,6 +82,8 @@ The text you already know flashed on the download screen:
 
 # Chapter III
 
+> **Attention!** All floating-point elements must be output in the format up to two decimal places separated by a space, unless the source code of the program provides for another option.
+
 ## Quest 1. Modules.
 
 Strangely enough, the computer took a long time to start up. You finally see the terminal loading and the following text:
