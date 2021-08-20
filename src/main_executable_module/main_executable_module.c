@@ -10,7 +10,7 @@ void main()
     output(data, n);
 
     printf("\nNORMALIZED DATA:\n\t");
-    normalisation(data, n);
+    normalization(data, n);
     output(data, n);
     
     printf("\nSORTED NORMALIZED DATA:\n\t");
