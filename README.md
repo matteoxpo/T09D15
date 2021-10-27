@@ -218,7 +218,7 @@ The computer is taking off:
      
     Press Enter when it's ready.
 
-***== Quest 6 received. Add the data_process.so target that builds the data_process.so module as the data_process.so dynamic library, to the Makefile. Add the build_with_dynamic target that builds the main_executable_module, connecting the data_process module as a dynamic library, to the Makefile. Make the necessary changes to the code of the main_executable_module, configuring the use of the dynamic library using macros. It is not allowed to upload the data_process.so to the repository, just like any other building result. The compiled file should be located in the build folder at the root of the repository. It should be named Quest_6. ==***
+***== Quest 6 received. Add the data_process.so target that builds the data_process module as the data_process.so dynamic library, to the Makefile. Add the build_with_dynamic target that builds the main_executable_module, connecting the data_process module as a dynamic library, to the Makefile. Make the necessary changes to the code of the main_executable_module, configuring the use of the dynamic library using macros. It is not allowed to upload the data_process.so to the repository, just like any other building result. The compiled file should be located in the build folder at the root of the repository. It should be named Quest_6. ==***
 
 ***LOADING...***
 
