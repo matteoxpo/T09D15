@@ -13,7 +13,7 @@
  3.1. [Quest 1. Modules.](#quest-1-modules) \
  3.2. [Quest 2. Modules II.](#quest-2-modules-ii) \
  3.3. [Quest 3. Makefile.](#quest-3-makefile) \
- 3.4. [Quest 4. Macro.](#quest-4-macro) \
+ 3.4. [Quest 4*. Macro.](#bonus-quest-4-macro) \
  3.5. [Quest 5. Static Lib.](#quest-5-static-lib) \
  3.6. [Quest 6. Dynamic Lib.](#quest-6-dynamic-lib) 
 4. [Chapter IV](#chapter-iv) 
@@ -159,7 +159,7 @@ LOADING Room 1…***
 ***LOADING…***
 
 
-## Quest 4. Macro.
+## Bonus Quest 4*. Macro.
 
 \> *Готово. Перезагрузить компьютер #3*
 
@@ -176,12 +176,12 @@ LOADING Room 1…***
      2. Load yet_another_decision_module ... SUCCESS.
      3. Make main_executable_module ... SUCCESS.
      4. Load check_list ...
-     4.1. Добавить реализацию data_io_macro.h в папку src/data_libs на параметрических макросах, принимающих массив,
+      4.1. Необязательно. Добавить реализацию data_io_macro.h в папку src/data_libs на параметрических макросах, принимающих массив,
      размер и формат для работы с массивами разных типов. В Макеfile добавить цель build_with_macro. 
      Немного доработать main_executable_module.c.
      ...
      
-    Нажмите Enter, как будет готово.
+    Нажмите Enter для пропуска или по готовности.
 
 ***== Получен Quest 4. Добавить в папку src/data_libs реализацию data_io_macro.h с помощью параметризованных многострочных макроопределений. Реализация должна работать с массивами любых типов. Доработать main_executable_module.c таким образом, чтобы была возможность конфигурировать с помощью макроса подключение header-файла модуля io (стандартная реализация data_io.h или data_io_macro.h). Добавить в Makefile цель build_with_macro для сборки main_executable_module с data_io_macro.h, подредактировав, при необходимости, цель all (для работы с  data_io.h). Скомпилированный файл должен располагаться в папке build, в корне репозитория и иметь имя Quest_4. Сам результат компиляции загружать в репозиторий не нужно. ==***
 
@@ -193,9 +193,9 @@ LOADING Room 1…***
 \> *Enter*
 
      4. Load check_list ...
-     4.1. Добавить реализацию data_io_macro.h на параметрических макросах, принимающих массив,
+      4.1.  Необязательно. Добавить реализацию data_io_macro.h на параметрических макросах, принимающих массив,
      размер и формат для работы с массивами разных типов. В Макеfile добавить цель build_with_macro... DONE.
-     4.2. Собрать data_stat как статическую библиотеку (.a). В Макеfile добавить цель build_with_static.
+      4.2. Собрать data_stat как статическую библиотеку (.a). В Макеfile добавить цель build_with_static.
      
     Нажмите Enter, как будет готово.
 
@@ -209,10 +209,10 @@ LOADING Room 1…***
 \> *Enter #2*
 
      4. Load check_list ...
-     4.1. Добавить реализацию data_io_macro.h на параметрических макросах, принимающих массив,
+      4.1. Необязательно. Добавить реализацию data_io_macro.h на параметрических макросах, принимающих массив,
      размер и формат для работы с массивами разных типов. В Макеfile добавить цель build_with_macro... DONE.
-     4.2. Собрать data_stat как статическую библиотеку (.a). В Макеfile добавить цель build_with_static.... DONE.
-     4.3. Собрать data_process как динамическую библиотеку (.so). В Макеfile добавить цель build_with_dynamic.
+      4.2. Собрать data_stat как статическую библиотеку (.a). В Макеfile добавить цель build_with_static.... DONE.
+      4.3. Собрать data_process как динамическую библиотеку (.so). В Макеfile добавить цель build_with_dynamic.
      
     Нажмите Enter, как будет готово.
 
@@ -226,10 +226,10 @@ LOADING Room 1…***
 \> *Enter*
 
      4. Load check_list ...
-     4.1. Добавить реализацию data_io_macro.h на параметрических макросах, принимающих массив, 
+      4.1. Необязательно. Добавить реализацию data_io_macro.h на параметрических макросах, принимающих массив, 
      размер и формат для работы с массивами разных типов. В Макеfile добавить цель build_with_macro... DONE.
-     4.2. Собрать data_stat как статическую библиотеку (.a). В Макеfile добавить цель build_with_static.... DONE.
-     4.2. Собрать data_process как динамическую библиотеку (.so). В Макеfile добавить цель build_with_dynamic...DONE
+      4.2. Собрать data_stat как статическую библиотеку (.a). В Макеfile добавить цель build_with_static.... DONE.
+      4.3. Собрать data_process как динамическую библиотеку (.so). В Макеfile добавить цель build_with_dynamic... DONE.
      .....
      Initialising....
      .....

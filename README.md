@@ -16,7 +16,7 @@ You can find some useful video materials [here](https://edu.21-school.ru/video/s
  3.1. [Quest 1. Modules.](#quest-1-modules) \
  3.2. [Quest 2. Modules II.](#quest-2-modules-ii) \
  3.3. [Quest 3. Makefile.](#quest-3-makefile) \
- 3.4. [Quest 4. Macro.](#quest-4-macro) \
+ 3.4. [Quest 4*. Macro.](#bonus-quest-4-macro) \
  3.5. [Quest 5. Static Lib.](#quest-5-static-lib) \
  3.6. [Quest 6. Dynamic Lib.](#quest-6-dynamic-lib) 
 4. [Chapter IV](#chapter-iv) 
@@ -133,7 +133,7 @@ It's working much faster after the restart:
 
 ## Quest 3. Makefile.
 
-\> *Ready. Restart the computer#2*
+\> *Ready. Restart the computer #2*
 
 The hard drive is rustling joyfully: 
 
@@ -158,9 +158,9 @@ The hard drive is rustling joyfully:
 
 ***LOADING…***
 
-## Quest 4. Macro.
+## Bonus Quest 4*. Macro.
 
-\> *Ready. Restart the computer#3*
+\> *Ready. Restart the computer #3*
 
 The computer is taking off:
 
@@ -175,12 +175,12 @@ The computer is taking off:
      2. Load yet_another_decision_module ... SUCCESS.
      3. Make main_executable_module ... SUCCESS.
      4. Load check_list ...
-     4.1. Add the data_io_macro.h implementation to the src/data_libs folder with parametric macros that take the array,
+      4.1. Optional. Add the data_io_macro.h implementation to the src/data_libs folder with parametric macros that take the array,
      the size, and the format for working with different types of arrays. Add the build_with_macro target to the Makefile. 
      Finalize main_executable_module.c.
      ...
      
-    Press Enter when it's ready.
+    Press Enter to skip or when it's ready.
 
 ***== Quest 4 received. Add the data_io_macro.h implementation to the src/data_libs folder using parametrized multiline macro definitions. The implementation has to work with any types of arrays. Modify main_executable_module.c to make it possible to configure the connection of the io module's header file using a macro (standard data_io.h or data_io_macro.h implementation). Add the build_with_macro target to the Makefile for building main_executable_module with data_io_macro.h, and edit the all target if necessary (for working with data_io.h). The compiled file should be located in the build folder at the root of the repository. It should be named Quest_4. ==***
 
@@ -192,10 +192,9 @@ The computer is taking off:
 \> *Enter*
 
      4. Load check_list ...
-     4.1. Add the data_io_macro.h implementation with parametric macros that take the array,
-     the size, and the format for working with different types of arrays. Add the build_with_macro target to the Makefile... 
-     DONE.
-     4.2. Build data_stat as a static library (.a). Add the build_with_static target to the Makefile.
+      4.1. Optional. Add the data_io_macro.h implementation with parametric macros that take the array,
+     the size, and the format for working with different types of arrays. Add the build_with_macro target to the Makefile... DONE.
+      4.2. Build data_stat as a static library (.a). Add the build_with_static target to the Makefile.
      
     Press Enter when it's ready.
 
@@ -206,15 +205,13 @@ The computer is taking off:
 
 ## Quest 6. Dynamic Lib.
 
-\> *Enter*
+\> *Enter #2*
 
      4. Load check_list ...
-     4.1. Add the data_io_macro.h implementation with parametric macros that take the array,
-     the size, and the format for working with different types of arrays. Add the build_with_macro target to the Makefile... 
-     DONE.
-     4.2. Build data_stat as a static library (.a). Add the build_with_static target to the Makefile... 
-     DONE.
-     4.3. Build data_process as a dynamic library (.so). Add the build_with_dynamic target to the Makefile.
+      4.1. Optional. Add the data_io_macro.h implementation with parametric macros that take the array,
+     the size, and the format for working with different types of arrays. Add the build_with_macro target to the Makefile... DONE.
+      4.2. Build data_stat as a static library (.a). Add the build_with_static target to the Makefile... DONE.
+      4.3. Build data_process as a dynamic library (.so). Add the build_with_dynamic target to the Makefile.
      
     Press Enter when it's ready.
 
@@ -228,13 +225,10 @@ The computer is taking off:
 \> *Enter*
 
      4. Load check_list ...
-     4.1. Add the data_io_macro.h implementation with parametric macros that take the array, 
-     the size, and the format for working with different types of arrays. Add the build_with_macro target to the Makefile... 
-     DONE.
-     4.2. Build data_stat as a static library (.a). Add the build_with_static target to the Makefile... 
-     DONE.
-     4.2. Build data_process as a dynamic library (.so). Add the build_with_dynamic target to the Makefile...
-     DONE
+      4.1. Optional. Add the data_io_macro.h implementation with parametric macros that take the array, 
+     the size, and the format for working with different types of arrays. Add the build_with_macro target to the Makefile... DONE.
+      4.2. Build data_stat as a static library (.a). Add the build_with_static target to the Makefile... DONE.
+      4.3. Build data_process as a dynamic library (.so). Add the build_with_dynamic target to the Makefile... DONE.
      .....
      Initializing....
      .....
