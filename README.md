@@ -154,7 +154,7 @@ The hard drive is rustling joyfully:
 
 > **Attention!** All paths in the Makefile must be specified relative to the directory in which it is located, since it will be launched from there
 
-***== Quest 3 received. Finalize the src/main_executable_module module so src/main_executable_module/main_executable_module.c is able to start and work correctly. Develop a Makefile for building the solution and place it in the source code directory. Add standard targets to the Makefile: clean, all, rebuild. When creating the Makefile, follow standard solutions used for developing programs in C. The compiled file should be located in the build folder at the root of the repository. It should be named Quest_3. ==***
+***== Quest 3 received. Finalize the src/main_executable_module module so src/main_executable_module/main_executable_module.c is able to start and work correctly. Develop a Makefile for building the solution and place it in the src/main_executable_module directory. Add standard targets to the Makefile: clean, all, rebuild. When creating the Makefile, follow standard solutions used for developing programs in C. The compiled file should be located in the build folder at the root of the repository. It should be named Quest_3. ==***
 
 ***LOADING…***
 
