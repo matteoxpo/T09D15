@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "decision.h": "c",
+        "stdio.h": "c",
+        "data_io.h": "c",
+        "data_stat.h": "c"
+    }
+}
