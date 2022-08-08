@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-#include "data_process.c"
+#include "data_process.h"
 
 int main() {
   double *data;
