@@ -10,6 +10,8 @@ all: $(OBJECTS) $(LIBS_OBJ)
 $(EXECUTABLE): $(OBJECTS) $(LIBS_OBJ)
 	$(CC) $(OBJECTS) -o $(EXECUTABLE)
 
+rebuild: all
+
 .o: .c
 	$(CC) $(CFLAGS) -c $< -o $@
 
