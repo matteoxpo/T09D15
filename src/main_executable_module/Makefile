@@ -12,12 +12,24 @@ PROCESS_SO = data_process.so
 PROCESS_O = data_process.o
 OBJECTS = $(SOURCES:.c=.o)
 EXECUTABLE = main
+QUEST3 = ../../build/Quest_3
+QUEST5 = ../../build/Quest_5
+QUEST6 = ../../build/Quest_6
 
 all: $(OBJECTS) $(STAT_O)
 	$(CC) $(OBJECTS) $(STAT_O) -o $(EXECUTABLE)
 	
 $(EXECUTABLE): $(OBJECTS) $(STAT_O)
 	$(CC) $(OBJECTS) $(STAT_O) -o $(EXECUTABLE)
+
+$(QUEST3): $(OBJECTS) $(STAT_O)
+	$(CC) $(OBJECTS) $(STAT_O) -o $(QUEST3)
+
+$(QUEST5): $(STAT_A) $(OBJECTS)
+	$(CC) $(OBJECTS) $(STAT_A) -o $(QUEST5)
+
+$(QUEST6): data_process.so $(OBJECTS)
+	$(CC) $(OBJECTS) $(STAT_A) -o $(QUEST6)
 
 build_with_static: $(STAT_A) $(OBJECTS)
 	$(CC) $(OBJECTS) $(STAT_A) -o $(EXECUTABLE)
@@ -40,5 +52,5 @@ rebuild: all
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm $(OBJECTS)
-	rm $(EXECUTABLE)
+	-rm $(OBJECTS)
+	-rm $(EXECUTABLE)
