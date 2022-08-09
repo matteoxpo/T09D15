@@ -33,7 +33,6 @@ $(STAT_A): $(STAT_O)
 data_process.so:
 	$(CC) $(CFLAGS) -c -fPIC $(PROCESS_C) $(STAT_C)
 	$(CC) -shared -o $(PROCESS_SO) $(PROCESS_O) $(STAT_O1)
-	rm *.o
 
 rebuild: all
 
@@ -41,7 +40,5 @@ rebuild: all
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm *.o
-	rm *.so
 	rm $(OBJECTS)
 	rm $(EXECUTABLE)
